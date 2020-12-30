@@ -1,0 +1,35 @@
+.header {
+    background-color: rgba(250, 250, 250, .3);
+    padding: 25px;
+    border-radius: 25px;
+    height: auto;
+    width: 33vw;
+
+    margin: 0 auto 20px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fas:hover {
+    cursor: pointer;
+    color: #444444;
+    
+}
+
+.headers-enter {
+    opacity: 0;
+}
+.headers-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.headers-exit {
+    opacity: 1;
+}
+.headers-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}

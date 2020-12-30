@@ -1,0 +1,26 @@
+.content {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(250, 250, 250, .3); */
+
+}
+
+.row {
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+
+}
+
+.content .tab-click {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(250, 250, 250, .3);
+
+}
